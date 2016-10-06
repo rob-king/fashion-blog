@@ -15,6 +15,8 @@ body {
 
 div.article-container {
   max-width: 80%;
+  border-bottom: 1px solid;
+  border-bottom-color: #DDDDDD;
 }
 
 .article-container img {
@@ -75,9 +77,32 @@ p {
   line-height: 1.5;
 }
 
-p::first-letter {
+article p::first-letter {
   color: #DDDDDD;
   float: left;
   font-size: 5em;
   margin: 0 .2em 0 0;
+}
+
+.footer-container {
+  margin-top: 40px;
+}
+
+.footer-container p {
+  color: #DDDDDD;
+  size: 1.1em;
+}
+
+.footer-container a {
+  letter-spacing: normal;
+  color: red;
+  font-size: 1.1em;
+  border-left: 2px solid;
+  border-color: #DDDDDD;
+  margin-right: 2px;
+  padding: 0 5px 0 5px;
+}
+
+.footer-container>a:first-child {
+  border: none;
 }
