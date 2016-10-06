@@ -1,6 +1,9 @@
 body {
   margin: 0 auto;
   max-width: 80%;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: normal;
+  letter-spacing: -2px;
 }
 
 .flexcontainer {
@@ -20,4 +23,62 @@ div.article-container {
 
 header {
   max-width: 80%;
+}
+
+h1 {
+  font-size: 3.0em;
+  font-weight: 300;
+  color: #DE3B30;
+}
+
+h1 a {
+  color: #DE3B30;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 2.0em;
+  color: #CCCCCC;
+}
+
+h2 a {
+  color: #CCCCCC;
+}
+
+h3 {
+  font-size: 1.7em;
+  font-weight: 200;
+}
+
+h4 {
+  text-align: right;
+  font-size: 1.1em;
+}
+
+h4 a {
+  color:#DE3B30;
+}
+
+
+
+nav a {
+  color: #DDDDDD;
+  text-decoration:underline;
+  margin: 0 4px 0 4px;
+  font-size: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  letter-spacing: normal;
+}
+
+p::first-letter {
+  color: #DDDDDD;
+  float: left;
+  font-size: 5em;
+  margin: 0 .2em 0 0;
 }
