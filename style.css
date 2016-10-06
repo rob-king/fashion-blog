@@ -9,3 +9,15 @@ body {
    -webkit-justify-content: flex-start;
    justify-content: flex-start;
  }
+
+div.article-container {
+  max-width: 80%;
+}
+
+.article-container img {
+  max-width: 100%;
+}
+
+header {
+  max-width: 80%;
+}
